@@ -19,13 +19,13 @@ Open the project's directory in a terminal; then issue the following command (ba
 ### Linux
 
 ```sh
-cat example-input.txt | ./gradlew -q --console=plain :app:run
+cat ./sample-input.txt | ./gradlew -q --console=plain :app:run
 ```
 
 ### Windows
 
 ```powershell
-cat example-input.txt | gradlew.bat -q --console=plain :app:run
+cat ./sample-input.txt | gradlew.bat -q --console=plain :app:run
 ```
 
 ### Input Specification
