@@ -19,7 +19,7 @@ fun main() {
 
 private fun p(title: String, ganttProducer: () -> Gantt) {
 	val g = ganttProducer()
-
+	
 	println(
 		"""
 		$title:

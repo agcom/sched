@@ -7,6 +7,6 @@ data class Process(
 ) : Comparable<Process> {
 	override fun hashCode(): Int = id.hashCode()
 	override fun equals(other: Any?): Boolean = other is Process && id == other.id
-
+	
 	override fun compareTo(other: Process): Int = id.compareTo(other.id)
 }
