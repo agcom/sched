@@ -38,7 +38,6 @@ See a sample input (from [sample-input.txt](./sample-input.txt)):
 0, 2, 4, 6, 8
 1
 2
-
 ```
 
 Line-by-line description:
